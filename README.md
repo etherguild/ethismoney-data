@@ -1,6 +1,6 @@
-# ETH is Money - RAW DATA
+# ETH is Money - Config Files
 This is the main repository where anyone can find all the underlying datapoints that are used to aggregate metrics for ethismoney.xyz
-The scripts for data aggregation can be found in the growthepie backend repository: XXX
+The scripts for data aggregation can be found in the growthepie backend repository: https://github.com/growthepie/gtp/tree/main/backend/eim
 
 ---
 ## How to participate
