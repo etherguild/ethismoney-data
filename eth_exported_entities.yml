@@ -30,7 +30,7 @@ arbitrum:
       - address: ["0xa3A7B6F88361F48403514059F1F16C8E78d60EeC"]
     - cbETH:
       - address: ["0xa3A7B6F88361F48403514059F1F16C8E78d60EeC"]
-      
+
 base:
   name: "Base"
   chains: ["base"]
@@ -41,8 +41,10 @@ base:
     - ETH: 
       - address: ["0x49048044d57e1c92a77f79988d21fa8faf74e97e"]
     - wstETH: 
-      - address: ["0x9de443AdC5A411E83F1878Ef24C3F52C61571e72"]
+      - address: ["0x9de443AdC5A411E83F1878Ef24C3F52C61571e72", "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"]
     - cbETH: 
+      - address: ["0x3154Cf16ccdb4C6d922629664174b904d80F2C35"]
+    - rETH: 
       - address: ["0x3154Cf16ccdb4C6d922629664174b904d80F2C35"]
 
 optimism:
@@ -55,7 +57,13 @@ optimism:
     - ETH: 
       - address: ["0xbEb5Fc579115071764c7423A4f12eDde41f106Ed", "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"]
     - wstETH: 
-      - address: ["0x76943C0D61395d8F2edF9060e1533529cAe05dE6"]
+      - address: ["0x76943C0D61395d8F2edF9060e1533529cAe05dE6", "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"]
+    - rETH:
+      - address: ["0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"]
+    - cbETH:
+      - address: ["0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"]
+    - weETH:
+      - address: ["0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"]
 
 scroll:
   name: "Scroll"
