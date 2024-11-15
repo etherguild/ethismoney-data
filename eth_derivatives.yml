@@ -16,6 +16,10 @@
 
 ETH:
   fixed: true
+
+nativeStakedETH:
+  fixed: true
+
 wETH:
   fixed: true
   ethereum:
