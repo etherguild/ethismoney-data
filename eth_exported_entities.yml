@@ -24,7 +24,13 @@ arbitrum:
       - address: ["0x8315177ab297ba92a06054ce80a67ed4dbd7ed3a", "0x011B6E24FfB0B5f5fCc564cf4183C5BBBc96D515"]
     - wstETH:
       - address: ["0x0F25c1DC2a9922304f2eac71DCa9B07E310e8E5a"]
-
+    - weETH:
+      - address: ["0xa3A7B6F88361F48403514059F1F16C8E78d60EeC"]
+    - rETH:
+      - address: ["0xa3A7B6F88361F48403514059F1F16C8E78d60EeC"]
+    - cbETH:
+      - address: ["0xa3A7B6F88361F48403514059F1F16C8E78d60EeC"]
+      
 base:
   name: "Base"
   chains: ["base"]
