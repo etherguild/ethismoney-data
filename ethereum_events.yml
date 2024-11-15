@@ -50,7 +50,7 @@ upgrades:
   - date: "2018-11-01"
     type: "Difficulty Bomb"
     title: "Difficulty Bomb Activates"
-    short_title: ""Difficulty Bomb""
+    short_title: "Difficulty Bomb"
     issuance: "3 ETH per Block"
     description: "Difficulty bomb reactivates slowing block times."
     source:
@@ -68,7 +68,7 @@ upgrades:
   - date: "2019-11-01"
     type: "Difficulty Bomb"
     title: "Difficulty Bomb Activates"
-    short_title: ""Difficulty Bomb""
+    short_title: "Difficulty Bomb"
     issuance: "2 ETH per Block"
     description: "Difficulty bomb reactivates slowing block times."
     source:
@@ -77,7 +77,7 @@ upgrades:
   - date: "2020-01-01"
     type: "Difficulty Bomb"
     title: "Difficulty Bomb Activates"
-    short_title: ""Difficulty Bomb""
+    short_title: "Difficulty Bomb"
     issuance: "2 ETH per Block"
     description: "Muir Glacier upgrade delayed difficulty bomb."
     source:
