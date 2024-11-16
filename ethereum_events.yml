@@ -9,7 +9,7 @@ upgrades:
     issuance: "5 ETH per Block"
     description: "The Ethereum genesis block was mined. The start of the network."
     source: "https://blog.ethereum.org/2015/07/30/ethereum-launches"
-    show_in_chart: true
+    show_in_chart: false
 
   - date: "2016-03-14"
     type: "Block Time Change"
