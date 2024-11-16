@@ -7,7 +7,7 @@
 
 # {HOLDER_KEY} - unique identifier of holder
 #   NAME: the humand-readable name of the holder
-#   TYPE: can be Government, People, Company, DAO, ETF
+#   TYPE: can be Government, Individual, Company, DAO, ETF
 #   HOLDING_TYPE: can be onchain or offchain
 ## - if HOLDYING_TYPE = onchain
 #   CHAINS:
@@ -186,7 +186,7 @@ op_collective:
 # ETH holders that can be considered celebrities
 v_buterin:
   name: Vitalik Buterin
-  type: People
+  type: Individual
   holding_type: onchain
   chains:
     ethereum:
@@ -197,7 +197,7 @@ v_buterin:
 
 d_trump:
   name: Donald Trump
-  type: People
+  type: Individual
   holding_type: onchain
   chains:
     ethereum:
@@ -206,7 +206,7 @@ d_trump:
 
 a_hayes:
   name: Arthur Hayes
-  type: People
+  type: Individual
   holding_type: onchain
   chains:
     ethereum:
@@ -215,7 +215,7 @@ a_hayes:
 
 j_bieber:
   name: Justin Bieber
-  type: People
+  type: Individual
   holding_type: onchain
   chains:
     ethereum:
@@ -224,7 +224,7 @@ j_bieber:
 
 neymar_jr:
   name: Neymar Jr
-  type: People
+  type: Individual
   holding_type: onchain
   chains:
     ethereum:
