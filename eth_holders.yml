@@ -67,6 +67,16 @@ state_of_michigan_pension:
       tx_type: buy
       amount_eth: 3871.0794 ## 460,000 ETHE ETF which is 3,871.0794 native ETH equivalent (conversion of 0.00841539 according to https://etfs.grayscale.com/ethe)
       source: 13F filing on 2024-09-30
+bhutan_gov:
+  name: Royal Government of Bhutan
+  type: Government
+  holding_type: onchain
+  chains:
+    ethereum:
+      - address: "0x9bfc2038C0CECC85b2dAb0e4ff9e4FfdAdE58036"
+        source: https://intel.arkm.com/explorer/address/0x9bfc2038C0CECC85b2dAb0e4ff9e4FfdAdE58036
+      - address: "0xA4aA40042EfC208fA5F329485a5B3Aa569DF66C7"
+        source: https://intel.arkm.com/explorer/address/0xA4aA40042EfC208fA5F329485a5B3Aa569DF66C7
 
 # ETH holders that can be considered Decentralized Autonomous Organizations (DAOs)
 ethereum_foundation:
