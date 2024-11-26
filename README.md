@@ -22,4 +22,4 @@ If we are missing holders or amounts, please add missing holders / addresses / t
 ---
 
 ## 3 - ETH Supply
-The ETH supply is retriebed from ultrasound.money API. The events are defined in ethereum_events.yml
+The ETH supply is retrieved from ultrasound.money API. The events are defined in ethereum_events.yml
