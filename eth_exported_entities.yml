@@ -311,7 +311,7 @@ kinto:
     - wETH:
       - address: ["0x00A0c9d82B95a17Cdf2D46703F2DcA13EB0E8A94", "0x0f1b7bd7762662B23486320AA91F30312184f70C"]
 
-Eclipse:
+eclipse:
   name: "Eclipse"
   chains: ["eclipse"]
   type: "Layer 2"
