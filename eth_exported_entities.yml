@@ -343,6 +343,16 @@ swell:
     - wstETH:
       - address: ["0xecf3376512EDAcA4FBB63d2c67d12a0397d24121"]
 
+ink:
+  name: "Ink"
+  chains: ["ink"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x5d66C1782664115999C47c9fA5cd031f495D3e4F"]
+
 sollet:
   name: "Sollet"
   chains: ["solana"]
