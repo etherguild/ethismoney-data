@@ -331,6 +331,18 @@ bob:
     - ETH:
       - address: ["0x8AdeE124447435fE03e3CD24dF3f4cAE32E65a3E"]
 
+swell:
+  name: "Swellchain"
+  chains: ["swell"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x758E0EE66102816F5C3Ec9ECc1188860fbb87812"]
+    - wstETH:
+      - address: ["0xecf3376512EDAcA4FBB63d2c67d12a0397d24121"]
+
 sollet:
   name: "Sollet"
   chains: ["solana"]
