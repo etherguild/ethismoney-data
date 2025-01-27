@@ -321,6 +321,16 @@ eclipse:
     - ETH:
       - address: ["0xD7E4b67E735733aC98a88F13d087D8aac670E644"]
 
+bob:
+  name: "Build on Bitcoin"
+  chains: ["bob"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x8AdeE124447435fE03e3CD24dF3f4cAE32E65a3E"]
+
 sollet:
   name: "Sollet"
   chains: ["solana"]
