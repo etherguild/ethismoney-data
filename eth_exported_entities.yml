@@ -363,6 +363,16 @@ soneium:
     - ETH:
       - address: ["0x88e529A6ccd302c948689Cd5156C83D4614FAE92"]
 
+arbitrum_nova:
+  name: "Arbitrum Nova"
+  chains: ["arbitrum_nova"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0xC1Ebd02f738644983b6C4B2d440b8e77DdE276Bd"]
+
 sollet:
   name: "Sollet"
   chains: ["solana"]
