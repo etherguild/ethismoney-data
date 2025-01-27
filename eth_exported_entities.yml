@@ -353,6 +353,16 @@ ink:
     - ETH:
       - address: ["0x5d66C1782664115999C47c9fA5cd031f495D3e4F"]
 
+soneium:
+  name: "Soneium"
+  chains: ["soneium"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x88e529A6ccd302c948689Cd5156C83D4614FAE92"]
+
 sollet:
   name: "Sollet"
   chains: ["solana"]
