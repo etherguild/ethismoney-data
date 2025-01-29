@@ -104,10 +104,10 @@ mantle:
       - address: ["0x95fC37A27a2f68e3A647CDc081F0A89bb47c3012"]
 
 zksync_era:
-  name: "ZKsync Era"
-  chains: ["zksync_era"]
+  name: "ZK Stack"
+  chains: ["zksync_era", "sophon", "abstract", "zero_network", "grvt", "cronos", "treasure"]
   type: "Layer 2"
-  uoa: "yes"
+  uoa: "possible"
   purpose: "single-chain"
   ethereum:
     - ETH: 
@@ -320,6 +320,58 @@ eclipse:
   ethereum:
     - ETH:
       - address: ["0xD7E4b67E735733aC98a88F13d087D8aac670E644"]
+
+bob:
+  name: "Build on Bitcoin"
+  chains: ["bob"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x8AdeE124447435fE03e3CD24dF3f4cAE32E65a3E"]
+
+swell:
+  name: "Swellchain"
+  chains: ["swell"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x758E0EE66102816F5C3Ec9ECc1188860fbb87812"]
+    - wstETH:
+      - address: ["0xecf3376512EDAcA4FBB63d2c67d12a0397d24121"]
+
+ink:
+  name: "Ink"
+  chains: ["ink"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x5d66C1782664115999C47c9fA5cd031f495D3e4F"]
+
+soneium:
+  name: "Soneium"
+  chains: ["soneium"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0x88e529A6ccd302c948689Cd5156C83D4614FAE92"]
+
+arbitrum_nova:
+  name: "Arbitrum Nova"
+  chains: ["arbitrum_nova"]
+  type: "Layer 2"
+  uoa: "yes"
+  purpose: "single-chain"
+  ethereum:
+    - ETH:
+      - address: ["0xC1Ebd02f738644983b6C4B2d440b8e77DdE276Bd"]
 
 sollet:
   name: "Sollet"
