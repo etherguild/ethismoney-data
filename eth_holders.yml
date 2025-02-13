@@ -67,6 +67,32 @@ state_of_michigan_pension:
       tx_type: buy
       amount_eth: 3871.0794 ## 460,000 ETHE ETF which is 3,871.0794 native ETH equivalent (conversion of 0.00841539 according to https://etfs.grayscale.com/ethe)
       source: 13F filing on 2024-09-30
+goldman_sachs:
+  name: Goldman Sachs
+  type: Company
+  holding_type: offchain
+  transactions:
+    - tx_id: 1
+      timestamp: 2025-02-11 00:00:00
+      asset_type: ETF
+      symbol: FETH ## Fidelity Ethereum Fund   
+      tx_type: buy
+      amount_eth: 93612.9727 ## 7,024,747 FETH ETF which is 93612.9727 native ETH equivalent (conversion of 0.01332617 according to https://www.fidelity.ca/en/products/etfs/feth/)
+      source: 13F filing on 2025-02-11 ## https://www.sec.gov/Archives/edgar/data/886982/000076999325000086/xslForm13F_X02/InfoTableSubmission.xml   
+    - tx_id: 2
+      timestamp: 2025-02-11 00:00:00
+      asset_type: ETF
+      symbol: ETH ## Grayscale Ethereum Mini Trust    
+      tx_type: buy
+      amount_eth: 1884.442 ## 200,000 ETH ETF which is 1884.442 native ETH equivalent (conversion of 0.00942221 according to https://etfs.grayscale.com/eth)
+      source: 13F filing on 2025-02-11 ## https://www.sec.gov/Archives/edgar/data/886982/000076999325000086/xslForm13F_X02/InfoTableSubmission.xml
+    - tx_id: 3
+      timestamp: 2025-02-11 00:00:00
+      asset_type: ETF
+      symbol: ETHA ## iShares Ethereum Trust ETF  
+      tx_type: buy
+      amount_eth: 68225.1307 ## 9,312,244 ETHA ETF which is 68225.1307 native ETH equivalent (conversion of 0.00732638993 according to https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf)
+      source: 13F filing on 2025-02-11 ## https://www.sec.gov/Archives/edgar/data/886982/000076999325000086/xslForm13F_X02/InfoTableSubmission.xml
 bhutan_gov:
   name: Royal Government of Bhutan
   type: Government
