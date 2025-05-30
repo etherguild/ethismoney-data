@@ -1,5 +1,6 @@
 # A list of Ethereum protocol upgrades / events
-# types: Issuances Change, Block Time Change, DDOS, Difficulty Bomb
+# types: Issuances Change, Block Time Change, DDOS, Difficulty Bomb, Product Upgrade
+# full list: https://ethereum.org/en/history/
 
 upgrades:
   - date: "2015-07-30"
@@ -109,3 +110,30 @@ upgrades:
     description: "Paris upgrade introduced the Merge - a transition from PoW to PoS by merging the main Ethereum chain with the Beacon Chain. This event permanently reduced ETH issuance by approximately 90%."
     source: "https://blog.ethereum.org/2022/09/15/ethereum-mainnet-merge-successful/"
     show_in_chart: true
+
+  - date: "2023-04-12"
+    type: "Product Upgrade"
+    title: "Shanghai-Capella (Shapella)"
+    short_title: "Shapella"
+    issuance: "PoS issuance + Fee Burn"
+    description: "Shapella introduces various Staking improvements like enabling withdrawals."
+    source: "https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement"
+    show_in_chart: false
+
+  - date: "2024-03-13"
+    type: "Product Upgrade"
+    title: "Cancun-Deneb (Dencun)"
+    short_title: "Dencun"
+    issuance: "PoS issuance + Fee Burn"
+    description: "Dencun introduces Proto-Danksharding via EIP4844"
+    source: "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement"
+    show_in_chart: false
+
+  - date: "2025-05-02"
+    type: "Product Upgrade"
+    title: "Prague-Electra (Pectra)"
+    short_title: "Pectra"
+    issuance: "PoS issuance + Fee Burn"
+    description: "Pectra increases Blob Target and brings UX improvements with native Account Abstraction"
+    source: "https://blog.ethereum.org/2025/04/23/pectra-mainnet"
+    show_in_chart: false
