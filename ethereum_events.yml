@@ -137,3 +137,12 @@ upgrades:
     description: "Pectra increases Blob Target and brings UX improvements with native Account Abstraction"
     source: "https://blog.ethereum.org/2025/04/23/pectra-mainnet"
     show_in_chart: false
+
+  - date: "2025-11-01"
+    type: "Product Upgrade"
+    title: "Fulu-Osaka (Fusaka)"
+    short_title: "Fusaka"
+    issuance: "PoS issuance + Fee Burn"
+    description: "Fusaka bundles a set of EIPs aimed at dramatically scaling Blobs and boosting overall throughput by raising the gas limit."
+    source: ""
+    show_in_chart: false
