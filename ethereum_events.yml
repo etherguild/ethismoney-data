@@ -27,7 +27,7 @@ upgrades:
     short_title: "Anomaly"
     issuance: "5 ETH per Block"
     description: "A series of Denial-of-Service (DDoS) attacks targeted the Ethereum network which led to a temporary increase in block time."
-    source: "https://blog.ethereum.org/2016/10/04/in-depth-overview-of-the-recent-attacks/"
+    source: "https://blog.ethereum.org/2016/09/22/ethereum-network-currently-undergoing-dos-attack/"
     show_in_chart: false
 
   - date: "2017-06-01"
@@ -36,7 +36,7 @@ upgrades:
     short_title: 
     issuance: "5 ETH per Block"
     description: "Difficulty bomb activates slowing block times."
-    source: "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/difficulty-bomb/"
+    source:
     show_in_chart: false
 
   - date: "2017-10-16"
@@ -90,7 +90,7 @@ upgrades:
     short_title: "Beacon Chain"
     issuance: "2 ETH per Block + PoS issuance"
     description: "Serenity Phase 0 deployment increased issuance to secure the Beacon Chain a separate Proof-of-Stake network running in parallel to Ethereum's Proof-of-Work (PoW)"
-    source: "https://blog.ethereum.org/2020/12/01/eth2-quick-update-no-21-beacon-chain-is-live/"
+    source:
     show_in_chart: true
 
   - date: "2021-08-06"
@@ -108,7 +108,7 @@ upgrades:
     short_title: "The Merge"
     issuance: "PoS issuance + Fee Burn"
     description: "Paris upgrade introduced the Merge - a transition from PoW to PoS by merging the main Ethereum chain with the Beacon Chain. This event permanently reduced ETH issuance by approximately 90%."
-    source: "https://blog.ethereum.org/2022/09/15/ethereum-mainnet-merge-successful/"
+    source:
     show_in_chart: true
 
   - date: "2023-04-12"
